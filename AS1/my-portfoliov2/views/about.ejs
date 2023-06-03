@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/header.ejs') %>
+
+    <main class="container">
+      <h2>About Me</h2>
+      <div class="about-me-content">
+        <img
+          src="/images/my-photo.jpg"
+          alt="Mohammad Kazemi"
+          class="about-me-image"
+        />
+        <p>
+          My name is Mohammad Kazemi, a proud student of the Software Technology
+          - AI program. Born in Iran and currently residing in the beautiful
+          community of Unionville, I have been fascinated by technology since I
+          first laid hands on a computer. Years back, I dabbled in creating
+          websites using PHP. After a decade-long hiatus, I am excited to plunge
+          back into web development, this time equipped with the tools of today.
+          When I'm not coding, you can find me immersed in a sci-fi book,
+          exploring alternate realities.
+        </p>
+      </div>
+      <a href="/resume.pdf" download class="btn btn-primary">Download Resume</a>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>
